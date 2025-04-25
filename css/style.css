@@ -1,0 +1,99 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  background-color: #22668d;
+  color: #fffadd;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+header > * {
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #213555;
+  float: left;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #1450a3;
+  color: #fffadd;
+}
+
+button:hover {
+  background-color: #fffadd;
+  color: #1450a3;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+input {
+  width: 160px;
+  height: 26px;
+  border: 2px solid #337ccf;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #191d88;
+}
+
+.penjelasankatik {
+  text-align: center;
+  font-weight: normal;
+}
+
+.description {
+  text-align: center;
+}
+
+.titleh2 {
+  background-color: #1450a3;
+  color: #ffc436;
+  padding: 20px 40px;
+}
+
+.inputSection {
+  text-align: center;
+}
+
+.inputButtonSection {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.result > p {
+  margin: 0;
+}
